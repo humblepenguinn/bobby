@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Bobby
+Exec=PROJECT_DIR/.venv/bin/bobby
+Icon=calendar
+Categories=Utility;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
