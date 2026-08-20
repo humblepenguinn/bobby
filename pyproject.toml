@@ -1,0 +1,20 @@
+[project]
+name = "bobby"
+version = "0.1.0"
+authors = [
+    { name = "humblepenguin", email = "humblepenguinn@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyside6>=6.11.2",
+    "google-api-python-client>=2.100.0",
+    "google-auth-httplib2>=0.1.1",
+    "google-auth-oauthlib>=1.1.0",
+]
+
+[project.scripts]
+bobby = "bobby:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
